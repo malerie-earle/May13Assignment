@@ -12,13 +12,20 @@ public class Main {
         singleDimensionArray.insert(5, 3);
         singleDimensionArray.insert(6, 4);
         singleDimensionArray.insert(7, 5);
+
         // print all numbers within the array
         singleDimensionArray.traverse();
+
         // print the array
         System.out.println(singleDimensionArray);
+
         // delete an item from the array
         singleDimensionArray.delete(1);
         System.out.println(singleDimensionArray);
+
+        // search an item in the array
+        singleDimensionArray.search(3);
+
         // delete entire array
         singleDimensionArray.deleteArray();
     }
